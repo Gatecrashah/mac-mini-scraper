@@ -1,0 +1,46 @@
+name: Mac Mini Price Monitor
+
+on:
+  schedule:
+    # Twice daily: 8:00 and 18:00 UTC (10:00 and 20:00 Finnish time)
+    - cron: '0 8 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: astral-sh/setup-uv@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run monitor
+      env:
+        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      run: uv run monitor.py
+
+    - name: Commit updated listings
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git pull origin main --rebase || git pull origin main
+        if [ -f "listings.json" ]; then
+          git add listings.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Update listings - $(date +'%Y-%m-%d %H:%M UTC')"
+            for i in 1 2 3; do
+              git push origin main && break
+              git pull origin main --rebase || git pull origin main
+              sleep 2
+            done
+          fi
+        fi

@@ -1,0 +1,23 @@
+[project]
+name = "mac-mini-scraper"
+version = "1.0.0"
+description = "Scrapes tori.fi for used Mac Mini (M1/M2/M4, 16GB+, <500€) prices"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
