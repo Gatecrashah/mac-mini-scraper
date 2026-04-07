@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 logger = logging.getLogger(__name__)
 
 SEARCH_URL = "https://www.tori.fi/recommerce/forsale/search"
-PARAMS = {"q": "mac mini", "price_to": "500"}
+PARAMS = {"q": "mac mini", "price_to": "500", "price_from": "100"}
 MAX_PAGES = 4
 
 # Models we care about and their regex patterns
