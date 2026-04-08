@@ -4,9 +4,9 @@
 from datetime import datetime, timezone
 
 MODEL_COLORS = {
-    "M4": {"bg": "#3B82F6", "text": "#FFFFFF"},
-    "M2": {"bg": "#10B981", "text": "#FFFFFF"},
-    "M1": {"bg": "#F59E0B", "text": "#1A1207"},
+    "M4": {"bg": "#0071E3", "text": "#FFFFFF"},
+    "M2": {"bg": "#34C759", "text": "#FFFFFF"},
+    "M1": {"bg": "#FF9500", "text": "#FFFFFF"},
 }
 
 CONDITION_MAP = {
@@ -23,7 +23,7 @@ def _condition_label(raw: str) -> str:
 
 def _listing_card(listing: dict) -> str:
     model = listing.get("model", "?")
-    colors = MODEL_COLORS.get(model, {"bg": "#6B7280", "text": "#FFFFFF"})
+    colors = MODEL_COLORS.get(model, {"bg": "#86868B", "text": "#FFFFFF"})
     condition = _condition_label(listing.get("condition", ""))
     price = listing.get("price", 0)
     ram = listing.get("ram_gb") or "?"
@@ -31,25 +31,26 @@ def _listing_card(listing: dict) -> str:
     url = listing.get("url", "#")
 
     return f"""
-    <tr><td style="padding:0 0 12px 0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1E293B;border-radius:12px;overflow:hidden;">
+    <tr><td style="padding:0 0 2px 0;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FFFFFF;">
         <tr>
-          <td style="padding:16px 20px;">
+          <td style="padding:20px 28px;">
             <table width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td>
-                  <span style="display:inline-block;background:{colors['bg']};color:{colors['text']};font-family:'SF Pro Display',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;padding:3px 10px;border-radius:6px;text-transform:uppercase;">{model}</span>
-                  <span style="display:inline-block;background:#334155;color:#94A3B8;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:11px;font-weight:500;padding:3px 8px;border-radius:6px;margin-left:6px;">{ram} GB</span>
-                  <span style="display:inline-block;background:#334155;color:#94A3B8;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:11px;font-weight:500;padding:3px 8px;border-radius:6px;margin-left:4px;">{condition}</span>
+                <td style="vertical-align:middle;">
+                  <span style="display:inline-block;background:{colors['bg']};color:{colors['text']};font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase;">{model}</span>
+                  <span style="display:inline-block;color:#86868B;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;font-weight:500;padding-left:10px;">{ram} GB &nbsp;&middot;&nbsp; {condition}</span>
                 </td>
-                <td align="right" style="font-family:'SF Pro Display',Helvetica,Arial,sans-serif;font-size:24px;font-weight:700;color:#FDE68A;white-space:nowrap;">{price:.0f}&thinsp;&euro;</td>
+                <td align="right" style="vertical-align:middle;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:22px;font-weight:600;color:#1D1D1F;letter-spacing:-0.5px;white-space:nowrap;">{price:.0f} &euro;</td>
               </tr>
               <tr>
-                <td colspan="2" style="padding-top:8px;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:14px;color:#CBD5E1;line-height:1.4;">{title}</td>
+                <td colspan="2" style="padding-top:10px;">
+                  <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:#424245;line-height:1.5;">{title}</span>
+                </td>
               </tr>
               <tr>
-                <td colspan="2" style="padding-top:12px;">
-                  <a href="{url}" target="_blank" style="display:inline-block;background:#EF4444;color:#FFFFFF;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600;text-decoration:none;padding:8px 20px;border-radius:8px;">View on Tori.fi &rarr;</a>
+                <td colspan="2" style="padding-top:14px;">
+                  <a href="{url}" target="_blank" style="display:inline-block;background:#1D1D1F;color:#FFFFFF;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;font-weight:500;text-decoration:none;padding:9px 22px;border-radius:980px;letter-spacing:0.1px;">View listing &rarr;</a>
                 </td>
               </tr>
             </table>
@@ -70,37 +71,34 @@ def render_email(listings: list[dict]) -> str:
     return f"""<!DOCTYPE html>
 <html lang="fi">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
-<body style="margin:0;padding:0;background:#0F172A;">
-  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0F172A;">
+<body style="margin:0;padding:0;background:#F5F5F7;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F5F5F7;">
     <tr><td align="center" style="padding:0;">
       <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;">
 
         <!-- Header -->
-        <tr><td style="padding:32px 24px 24px 24px;text-align:center;">
+        <tr><td style="padding:44px 28px 32px 28px;">
           <table width="100%" cellpadding="0" cellspacing="0" border="0">
-            <tr><td align="center">
-              <span style="display:inline-block;width:40px;height:40px;background:#1E293B;border-radius:10px;line-height:40px;font-size:20px;text-align:center;">&#9724;</span>
+            <tr><td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:28px;font-weight:600;color:#1D1D1F;letter-spacing:-0.5px;line-height:1.15;">
+              {count} new Mac Mini<br>listing{"s" if count != 1 else ""}
             </td></tr>
-            <tr><td align="center" style="padding-top:14px;font-family:'SF Pro Display',Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;color:#F1F5F9;letter-spacing:-0.3px;">
-              {count} new Mac Mini listing{"s" if count != 1 else ""}
-            </td></tr>
-            <tr><td align="center" style="padding-top:4px;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:13px;color:#64748B;">
-              M1 / M2 / M4 &middot; 16 GB+ &middot; under 500&thinsp;&euro;
+            <tr><td style="padding-top:8px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:#86868B;font-weight:400;letter-spacing:0.1px;">
+              M1 / M2 / M4 &nbsp;&middot;&nbsp; 16 GB+ &nbsp;&middot;&nbsp; under 500 &euro;
             </td></tr>
           </table>
         </td></tr>
 
         <!-- Listings -->
         <tr><td style="padding:0 16px;">
-          <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:14px;overflow:hidden;">
             {cards}
           </table>
         </td></tr>
 
         <!-- Footer -->
-        <tr><td style="padding:20px 24px 32px 24px;text-align:center;">
-          <p style="margin:0;font-family:'SF Pro Text',Helvetica,Arial,sans-serif;font-size:11px;color:#475569;">
-            Scraped from tori.fi &middot; {now}
+        <tr><td style="padding:28px 28px 44px 28px;">
+          <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;color:#86868B;font-weight:400;">
+            tori.fi &nbsp;&middot;&nbsp; {now}
           </p>
         </td></tr>
 
