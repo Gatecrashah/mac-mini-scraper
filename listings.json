@@ -73,7 +73,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/39549415/95000b7b-f296-42db-b323-47ee97e02580",
     "first_seen": "2026-04-07T17:58:58.437806+00:00",
-    "last_seen": "2026-04-26T17:41:08.968854+00:00",
+    "last_seen": "2026-04-27T09:16:28.527175+00:00",
     "active": true,
     "notified": true
   },
@@ -86,7 +86,20 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/80/80be111d-17df-4cc9-9ad3-12ce29782ae5",
     "first_seen": "2026-04-24T17:51:14.050588+00:00",
-    "last_seen": "2026-04-26T17:41:08.968854+00:00",
+    "last_seen": "2026-04-27T09:16:28.527175+00:00",
+    "active": true,
+    "notified": true
+  },
+  "tori_40628703": {
+    "title": "Mac mini M1 16GB / 512GB",
+    "model": "M1",
+    "ram_gb": 16,
+    "price": 500.0,
+    "url": "https://www.tori.fi/recommerce/forsale/item/40628703",
+    "condition": "https://schema.org/UsedCondition",
+    "image": "https://img.tori.net/dynamic/default/item/40628703/f4db7392-3f56-4e19-bb6a-e9de4815d574",
+    "first_seen": "2026-04-27T09:16:28.527175+00:00",
+    "last_seen": "2026-04-27T09:16:28.527175+00:00",
     "active": true,
     "notified": true
   }
