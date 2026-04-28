@@ -73,7 +73,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/39549415/95000b7b-f296-42db-b323-47ee97e02580",
     "first_seen": "2026-04-07T17:58:58.437806+00:00",
-    "last_seen": "2026-04-27T18:04:42.758722+00:00",
+    "last_seen": "2026-04-28T09:20:19.466640+00:00",
     "active": true,
     "notified": true
   },
@@ -86,7 +86,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/80/80be111d-17df-4cc9-9ad3-12ce29782ae5",
     "first_seen": "2026-04-24T17:51:14.050588+00:00",
-    "last_seen": "2026-04-27T18:04:42.758722+00:00",
+    "last_seen": "2026-04-28T09:20:19.466640+00:00",
     "active": true,
     "notified": true
   },
@@ -101,6 +101,19 @@
     "first_seen": "2026-04-27T09:16:28.527175+00:00",
     "last_seen": "2026-04-27T09:16:28.527175+00:00",
     "active": false,
+    "notified": true
+  },
+  "tori_40687086": {
+    "title": "Apple Mac mini m1",
+    "model": "M1",
+    "ram_gb": null,
+    "price": 295.0,
+    "url": "https://www.tori.fi/recommerce/forsale/item/40687086",
+    "condition": "https://schema.org/UsedCondition",
+    "image": "https://img.tori.net/dynamic/default/item/40687086/73c25c1d-55f8-4721-a886-9b9945fce0ca",
+    "first_seen": "2026-04-28T09:20:19.466640+00:00",
+    "last_seen": "2026-04-28T09:20:19.466640+00:00",
+    "active": true,
     "notified": true
   }
 }
