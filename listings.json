@@ -68,13 +68,13 @@
     "title": "Mac Mini M2 16GB 256GB",
     "model": "M2",
     "ram_gb": 16,
-    "price": 450.0,
+    "price": 400.0,
     "url": "https://www.tori.fi/recommerce/forsale/item/39549415",
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/39549415/95000b7b-f296-42db-b323-47ee97e02580",
     "first_seen": "2026-04-07T17:58:58.437806+00:00",
-    "last_seen": "2026-04-30T09:09:57.343423+00:00",
-    "active": false,
+    "last_seen": "2026-05-01T08:59:19.963686+00:00",
+    "active": true,
     "notified": true
   },
   "tori_21196306": {
@@ -86,8 +86,8 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/80/80be111d-17df-4cc9-9ad3-12ce29782ae5",
     "first_seen": "2026-04-24T17:51:14.050588+00:00",
-    "last_seen": "2026-04-30T09:09:57.343423+00:00",
-    "active": false,
+    "last_seen": "2026-05-01T08:59:19.963686+00:00",
+    "active": true,
     "notified": true
   },
   "tori_40628703": {
@@ -112,8 +112,8 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/40687086/73c25c1d-55f8-4721-a886-9b9945fce0ca",
     "first_seen": "2026-04-28T09:20:19.466640+00:00",
-    "last_seen": "2026-04-30T09:09:57.343423+00:00",
-    "active": false,
+    "last_seen": "2026-05-01T08:59:19.963686+00:00",
+    "active": true,
     "notified": true
   },
   "tori_39899238": {
@@ -125,8 +125,8 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/39899238/6094f449-3759-45c0-adb1-ef266cdb567c",
     "first_seen": "2026-04-29T18:12:57.526223+00:00",
-    "last_seen": "2026-04-30T09:09:57.343423+00:00",
-    "active": false,
+    "last_seen": "2026-05-01T08:59:19.963686+00:00",
+    "active": true,
     "notified": true
   }
 }
