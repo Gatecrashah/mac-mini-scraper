@@ -74,7 +74,7 @@
     "image": "https://img.tori.net/dynamic/default/item/39549415/95000b7b-f296-42db-b323-47ee97e02580",
     "first_seen": "2026-04-07T17:58:58.437806+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_21196306": {
@@ -87,7 +87,7 @@
     "image": "https://img.tori.net/dynamic/default/80/80be111d-17df-4cc9-9ad3-12ce29782ae5",
     "first_seen": "2026-04-24T17:51:14.050588+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_40628703": {
@@ -113,7 +113,7 @@
     "image": "https://img.tori.net/dynamic/default/item/40687086/73c25c1d-55f8-4721-a886-9b9945fce0ca",
     "first_seen": "2026-04-28T09:20:19.466640+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_39899238": {
@@ -126,7 +126,7 @@
     "image": "https://img.tori.net/dynamic/default/item/39899238/6094f449-3759-45c0-adb1-ef266cdb567c",
     "first_seen": "2026-04-29T18:12:57.526223+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_40820386": {
@@ -139,7 +139,7 @@
     "image": "https://img.tori.net/dynamic/default/item/40820386/6f8d18b4-a834-420e-ab80-890a376bb5f4",
     "first_seen": "2026-05-01T17:59:46.563490+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_40884446": {
@@ -152,7 +152,7 @@
     "image": "https://img.tori.net/dynamic/default/item/40884446/b5d7f249-369b-412f-9057-cd39c91e4887",
     "first_seen": "2026-05-02T17:45:52.213771+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_40880723": {
@@ -165,7 +165,7 @@
     "image": "https://img.tori.net/dynamic/default/item/40880723/4396d68a-615f-41d3-87b4-fb0f8295315b",
     "first_seen": "2026-05-02T17:45:52.213771+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_40532125": {
@@ -178,7 +178,7 @@
     "image": "https://img.tori.net/dynamic/default/item/40532125/e7def1ee-bde6-4c98-8556-7901a61e3243",
     "first_seen": "2026-05-04T09:16:26.815960+00:00",
     "last_seen": "2026-05-04T18:16:49.957118+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   }
 }
