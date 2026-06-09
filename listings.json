@@ -86,8 +86,8 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/80/80be111d-17df-4cc9-9ad3-12ce29782ae5",
     "first_seen": "2026-04-24T17:51:14.050588+00:00",
-    "last_seen": "2026-06-08T19:22:16.624897+00:00",
-    "active": false,
+    "last_seen": "2026-06-09T19:15:54.392843+00:00",
+    "active": true,
     "notified": true
   },
   "tori_40628703": {
@@ -294,8 +294,8 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/42576364/e45192bc-677f-421d-8c1e-1011dc00c99b",
     "first_seen": "2026-06-08T19:22:16.624897+00:00",
-    "last_seen": "2026-06-08T19:22:16.624897+00:00",
-    "active": false,
+    "last_seen": "2026-06-09T19:15:54.392843+00:00",
+    "active": true,
     "notified": true
   }
 }
