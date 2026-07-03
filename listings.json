@@ -295,7 +295,7 @@
     "image": "https://img.tori.net/dynamic/default/item/42576364/e45192bc-677f-421d-8c1e-1011dc00c99b",
     "first_seen": "2026-06-08T19:22:16.624897+00:00",
     "last_seen": "2026-07-03T09:56:24.219840+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_42667724": {
@@ -360,7 +360,7 @@
     "image": "https://img.tori.net/dynamic/default/item/43281711/14f558d4-ab5a-4b72-83e9-d252a3ed2b5c",
     "first_seen": "2026-06-26T18:53:44.910239+00:00",
     "last_seen": "2026-07-03T09:56:24.219840+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   }
 }
