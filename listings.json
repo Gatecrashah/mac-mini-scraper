@@ -359,7 +359,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/43281711/14f558d4-ab5a-4b72-83e9-d252a3ed2b5c",
     "first_seen": "2026-06-26T18:53:44.910239+00:00",
-    "last_seen": "2026-07-07T19:03:31.938732+00:00",
+    "last_seen": "2026-07-08T09:24:16.787627+00:00",
     "active": true,
     "notified": true
   },
@@ -398,7 +398,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/43805976/e3279897-9dca-4db7-832a-c90e48dff5f6",
     "first_seen": "2026-07-07T19:03:31.938732+00:00",
-    "last_seen": "2026-07-07T19:03:31.938732+00:00",
+    "last_seen": "2026-07-08T09:24:16.787627+00:00",
     "active": true,
     "notified": true
   }
