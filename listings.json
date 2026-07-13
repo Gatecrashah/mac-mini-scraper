@@ -359,7 +359,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/43281711/14f558d4-ab5a-4b72-83e9-d252a3ed2b5c",
     "first_seen": "2026-06-26T18:53:44.910239+00:00",
-    "last_seen": "2026-07-13T10:23:40.855891+00:00",
+    "last_seen": "2026-07-13T18:44:31.953040+00:00",
     "active": true,
     "notified": true
   },
@@ -425,7 +425,7 @@
     "image": "https://img.tori.net/dynamic/default/item/43906647/b761192c-f569-45c5-abd5-bd11907fb58d",
     "first_seen": "2026-07-10T10:22:02.014946+00:00",
     "last_seen": "2026-07-13T10:23:40.855891+00:00",
-    "active": true,
+    "active": false,
     "notified": true
   },
   "tori_44027118": {
@@ -437,7 +437,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/44027118/2cc626bf-914c-418e-84a9-452adfbb1db8",
     "first_seen": "2026-07-13T10:23:40.855891+00:00",
-    "last_seen": "2026-07-13T10:23:40.855891+00:00",
+    "last_seen": "2026-07-13T18:44:31.953040+00:00",
     "active": true,
     "notified": true
   }
