@@ -450,7 +450,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/44108459/09d8d5b0-b6e2-4598-bf50-6e51f15cbcd0",
     "first_seen": "2026-07-14T18:05:01.399058+00:00",
-    "last_seen": "2026-09-14T20:45:44.267519+00:00",
+    "last_seen": "2026-09-15T12:27:21.605933+00:00",
     "active": true,
     "notified": true
   },
@@ -502,7 +502,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/44530197/24af0eca-649a-41ed-9c54-f5e21207f6f2",
     "first_seen": "2026-07-28T09:35:16.851582+00:00",
-    "last_seen": "2026-09-14T20:45:44.267519+00:00",
+    "last_seen": "2026-09-15T12:27:21.605933+00:00",
     "active": true,
     "notified": true
   },
@@ -658,7 +658,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/46935968/be4a5d5a-addc-4731-9a35-f7837cebb09e",
     "first_seen": "2026-09-10T19:28:32.170561+00:00",
-    "last_seen": "2026-09-14T20:45:44.267519+00:00",
+    "last_seen": "2026-09-15T12:27:21.605933+00:00",
     "active": true,
     "notified": true
   },
@@ -671,7 +671,7 @@
     "condition": "https://schema.org/UsedCondition",
     "image": "https://img.tori.net/dynamic/default/item/47067424/d0befbf3-1735-4d9e-bf27-28e41bc202b7",
     "first_seen": "2026-09-13T12:31:57.971056+00:00",
-    "last_seen": "2026-09-14T20:45:44.267519+00:00",
+    "last_seen": "2026-09-15T12:27:21.605933+00:00",
     "active": true,
     "notified": true
   },
@@ -686,6 +686,19 @@
     "first_seen": "2026-09-14T13:38:02.472372+00:00",
     "last_seen": "2026-09-14T13:38:02.472372+00:00",
     "active": false,
+    "notified": true
+  },
+  "tori_13398046": {
+    "title": "Mac Mini M2 8/512",
+    "model": "M2",
+    "ram_gb": null,
+    "price": 500.0,
+    "url": "https://www.tori.fi/recommerce/forsale/item/13398046",
+    "condition": "https://schema.org/UsedCondition",
+    "image": "https://img.tori.net/dynamic/default/2024/9/vertical-0/11/6/133/980/46_7b80460b-1328-47fd-bcfb-ad74192665da.jpg",
+    "first_seen": "2026-09-15T12:27:21.605933+00:00",
+    "last_seen": "2026-09-15T12:27:21.605933+00:00",
+    "active": true,
     "notified": true
   }
 }
